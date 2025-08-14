@@ -25,3 +25,23 @@ body {
     color: var(--text-color-secudnary);
     background-color: var(--background-color);
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+.container {
+    padding-inline: 32px; /*Inline serve para colocar apenas nas laterais, podendo conter dois valores.*/
+    max-width: 1280px;
+    margin-inline: auto; /*Do mesmo jeito que o padding, só vai mexer nas laterais, perdindo que os itens fiquem alinhados ao centro idependente do tamanho da página.*/
+}
+
+.bg-surface-color {
+    background-color: var(--surface-color);
+}
