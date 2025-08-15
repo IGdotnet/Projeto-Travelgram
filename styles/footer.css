@@ -1,0 +1,9 @@
+footer {
+    display: flex;
+    gap: 24px;
+    padding-block: 24px;
+}
+
+footer span:nth-child(1) { /*Estamos definindo que estamos buscando um span, mas se fosse um link o primeiro filho, isso já nãod aria certo*/
+    margin-right: auto;
+}
